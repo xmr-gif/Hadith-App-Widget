@@ -47,22 +47,6 @@ Since this project was built with Xcode 14.2, which targets older iOS versions (
 
 ---
 
-### Known Issues & Troubleshooting
-
-#### Known Issues
-
-* **Text Truncation**: Long Hadiths may be cut off in smaller widgets. The `systemLarge` widget is designed to minimize this issue.
-
-#### Troubleshooting
-
-* **"Build input files cannot be found" Error**: If you see this error after renaming the project, check the following:
-    * Verify the files (`HandithWidgetAppApp.swift`, `ContentView.swift`, etc.) still exist in the project directory.
-    * In Xcode, right-click the project, select `Add Files to...`, and re-add the missing files.
-    * Make sure **Target Membership** is checked for the correct target in the File Inspector.
-    * Clean the build folder by pressing **Command + Shift + K** and then rebuild the project.
-
----
-
 ### Future Improvements
 
 * Implement **deep linking** to view the full Hadith within the app.
