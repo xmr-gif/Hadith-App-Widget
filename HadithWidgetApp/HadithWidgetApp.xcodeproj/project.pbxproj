@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5A12A902E4F58CF00DB14FF /* HadithWidgetAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A12A8F2E4F58CF00DB14FF /* HadithWidgetAppApp.swift */; };
+		D5A12A922E4F58CF00DB14FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A12A912E4F58CF00DB14FF /* ContentView.swift */; };
+		D5A12A942E4F58D100DB14FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A12A932E4F58D100DB14FF /* Assets.xcassets */; };
+		D5A12A972E4F58D100DB14FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A12A962E4F58D100DB14FF /* Preview Assets.xcassets */; };
+		D5A12AA12E4F58D200DB14FF /* HadithWidgetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A12AA02E4F58D200DB14FF /* HadithWidgetAppTests.swift */; };
+		D5A12AAB2E4F58D200DB14FF /* HadithWidgetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A12AAA2E4F58D200DB14FF /* HadithWidgetAppUITests.swift */; };
+		D5A12AAD2E4F58D200DB14FF /* HadithWidgetAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A12AAC2E4F58D200DB14FF /* HadithWidgetAppUITestsLaunchTests.swift */; };
+		D5A12AC02E4F58F900DB14FF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A12ABF2E4F58F900DB14FF /* WidgetKit.framework */; };
+		D5A12AC22E4F58F900DB14FF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A12AC12E4F58F900DB14FF /* SwiftUI.framework */; };
+		D5A12AC52E4F58F900DB14FF /* HadithWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A12AC42E4F58F900DB14FF /* HadithWidgetBundle.swift */; };
+		D5A12AC72E4F58F900DB14FF /* HadithWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A12AC62E4F58F900DB14FF /* HadithWidgetLiveActivity.swift */; };
+		D5A12AC92E4F58F900DB14FF /* HadithWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A12AC82E4F58F900DB14FF /* HadithWidget.swift */; };
+		D5A12ACC2E4F591800DB14FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A12ACB2E4F591800DB14FF /* Assets.xcassets */; };
+		D5A12ACE2E4F591800DB14FF /* HadithWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D5A12ACA2E4F58F900DB14FF /* HadithWidget.intentdefinition */; };
+		D5A12ACF2E4F591800DB14FF /* HadithWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D5A12ACA2E4F58F900DB14FF /* HadithWidget.intentdefinition */; };
+		D5A12AD22E4F591800DB14FF /* HadithWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5A12ABD2E4F58F900DB14FF /* HadithWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5A12A9D2E4F58D200DB14FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A12A842E4F58CF00DB14FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A12A8B2E4F58CF00DB14FF;
+			remoteInfo = HadithWidgetApp;
+		};
+		D5A12AA72E4F58D200DB14FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A12A842E4F58CF00DB14FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A12A8B2E4F58CF00DB14FF;
+			remoteInfo = HadithWidgetApp;
+		};
+		D5A12AD02E4F591800DB14FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5A12A842E4F58CF00DB14FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5A12ABC2E4F58F800DB14FF;
+			remoteInfo = HadithWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5A12AD62E4F591A00DB14FF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5A12AD22E4F591800DB14FF /* HadithWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D5A12A8C2E4F58CF00DB14FF /* HadithWidgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HadithWidgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A12A8F2E4F58CF00DB14FF /* HadithWidgetAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithWidgetAppApp.swift; sourceTree = "<group>"; };
+		D5A12A912E4F58CF00DB14FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5A12A932E4F58D100DB14FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A12A962E4F58D100DB14FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5A12A9C2E4F58D200DB14FF /* HadithWidgetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HadithWidgetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A12AA02E4F58D200DB14FF /* HadithWidgetAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithWidgetAppTests.swift; sourceTree = "<group>"; };
+		D5A12AA62E4F58D200DB14FF /* HadithWidgetAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HadithWidgetAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A12AAA2E4F58D200DB14FF /* HadithWidgetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithWidgetAppUITests.swift; sourceTree = "<group>"; };
+		D5A12AAC2E4F58D200DB14FF /* HadithWidgetAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithWidgetAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5A12ABD2E4F58F900DB14FF /* HadithWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HadithWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A12ABF2E4F58F900DB14FF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D5A12AC12E4F58F900DB14FF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D5A12AC42E4F58F900DB14FF /* HadithWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithWidgetBundle.swift; sourceTree = "<group>"; };
+		D5A12AC62E4F58F900DB14FF /* HadithWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		D5A12AC82E4F58F900DB14FF /* HadithWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadithWidget.swift; sourceTree = "<group>"; };
+		D5A12ACA2E4F58F900DB14FF /* HadithWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = HadithWidget.intentdefinition; sourceTree = "<group>"; };
+		D5A12ACB2E4F591800DB14FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5A12ACD2E4F591800DB14FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A12A892E4F58CF00DB14FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12A992E4F58D200DB14FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12AA32E4F58D200DB14FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12ABA2E4F58F800DB14FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A12AC22E4F58F900DB14FF /* SwiftUI.framework in Frameworks */,
+				D5A12AC02E4F58F900DB14FF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A12A832E4F58CF00DB14FF = {
+			isa = PBXGroup;
+			children = (
+				D5A12A8E2E4F58CF00DB14FF /* HadithWidgetApp */,
+				D5A12A9F2E4F58D200DB14FF /* HadithWidgetAppTests */,
+				D5A12AA92E4F58D200DB14FF /* HadithWidgetAppUITests */,
+				D5A12AC32E4F58F900DB14FF /* HadithWidget */,
+				D5A12ABE2E4F58F900DB14FF /* Frameworks */,
+				D5A12A8D2E4F58CF00DB14FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A12A8D2E4F58CF00DB14FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A12A8C2E4F58CF00DB14FF /* HadithWidgetApp.app */,
+				D5A12A9C2E4F58D200DB14FF /* HadithWidgetAppTests.xctest */,
+				D5A12AA62E4F58D200DB14FF /* HadithWidgetAppUITests.xctest */,
+				D5A12ABD2E4F58F900DB14FF /* HadithWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5A12A8E2E4F58CF00DB14FF /* HadithWidgetApp */ = {
+			isa = PBXGroup;
+			children = (
+				D5A12A8F2E4F58CF00DB14FF /* HadithWidgetAppApp.swift */,
+				D5A12A912E4F58CF00DB14FF /* ContentView.swift */,
+				D5A12A932E4F58D100DB14FF /* Assets.xcassets */,
+				D5A12A952E4F58D100DB14FF /* Preview Content */,
+			);
+			path = HadithWidgetApp;
+			sourceTree = "<group>";
+		};
+		D5A12A952E4F58D100DB14FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5A12A962E4F58D100DB14FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5A12A9F2E4F58D200DB14FF /* HadithWidgetAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A12AA02E4F58D200DB14FF /* HadithWidgetAppTests.swift */,
+			);
+			path = HadithWidgetAppTests;
+			sourceTree = "<group>";
+		};
+		D5A12AA92E4F58D200DB14FF /* HadithWidgetAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A12AAA2E4F58D200DB14FF /* HadithWidgetAppUITests.swift */,
+				D5A12AAC2E4F58D200DB14FF /* HadithWidgetAppUITestsLaunchTests.swift */,
+			);
+			path = HadithWidgetAppUITests;
+			sourceTree = "<group>";
+		};
+		D5A12ABE2E4F58F900DB14FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5A12ABF2E4F58F900DB14FF /* WidgetKit.framework */,
+				D5A12AC12E4F58F900DB14FF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A12AC32E4F58F900DB14FF /* HadithWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D5A12AC42E4F58F900DB14FF /* HadithWidgetBundle.swift */,
+				D5A12AC62E4F58F900DB14FF /* HadithWidgetLiveActivity.swift */,
+				D5A12AC82E4F58F900DB14FF /* HadithWidget.swift */,
+				D5A12ACA2E4F58F900DB14FF /* HadithWidget.intentdefinition */,
+				D5A12ACB2E4F591800DB14FF /* Assets.xcassets */,
+				D5A12ACD2E4F591800DB14FF /* Info.plist */,
+			);
+			path = HadithWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A12A8B2E4F58CF00DB14FF /* HadithWidgetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A12AB02E4F58D200DB14FF /* Build configuration list for PBXNativeTarget "HadithWidgetApp" */;
+			buildPhases = (
+				D5A12A882E4F58CF00DB14FF /* Sources */,
+				D5A12A892E4F58CF00DB14FF /* Frameworks */,
+				D5A12A8A2E4F58CF00DB14FF /* Resources */,
+				D5A12AD62E4F591A00DB14FF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A12AD12E4F591800DB14FF /* PBXTargetDependency */,
+			);
+			name = HadithWidgetApp;
+			productName = HadithWidgetApp;
+			productReference = D5A12A8C2E4F58CF00DB14FF /* HadithWidgetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5A12A9B2E4F58D200DB14FF /* HadithWidgetAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A12AB32E4F58D200DB14FF /* Build configuration list for PBXNativeTarget "HadithWidgetAppTests" */;
+			buildPhases = (
+				D5A12A982E4F58D200DB14FF /* Sources */,
+				D5A12A992E4F58D200DB14FF /* Frameworks */,
+				D5A12A9A2E4F58D200DB14FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A12A9E2E4F58D200DB14FF /* PBXTargetDependency */,
+			);
+			name = HadithWidgetAppTests;
+			productName = HadithWidgetAppTests;
+			productReference = D5A12A9C2E4F58D200DB14FF /* HadithWidgetAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5A12AA52E4F58D200DB14FF /* HadithWidgetAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A12AB62E4F58D200DB14FF /* Build configuration list for PBXNativeTarget "HadithWidgetAppUITests" */;
+			buildPhases = (
+				D5A12AA22E4F58D200DB14FF /* Sources */,
+				D5A12AA32E4F58D200DB14FF /* Frameworks */,
+				D5A12AA42E4F58D200DB14FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5A12AA82E4F58D200DB14FF /* PBXTargetDependency */,
+			);
+			name = HadithWidgetAppUITests;
+			productName = HadithWidgetAppUITests;
+			productReference = D5A12AA62E4F58D200DB14FF /* HadithWidgetAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D5A12ABC2E4F58F800DB14FF /* HadithWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A12AD32E4F591A00DB14FF /* Build configuration list for PBXNativeTarget "HadithWidgetExtension" */;
+			buildPhases = (
+				D5A12AB92E4F58F800DB14FF /* Sources */,
+				D5A12ABA2E4F58F800DB14FF /* Frameworks */,
+				D5A12ABB2E4F58F800DB14FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HadithWidgetExtension;
+			productName = HadithWidgetExtension;
+			productReference = D5A12ABD2E4F58F900DB14FF /* HadithWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A12A842E4F58CF00DB14FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D5A12A8B2E4F58CF00DB14FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D5A12A9B2E4F58D200DB14FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D5A12A8B2E4F58CF00DB14FF;
+					};
+					D5A12AA52E4F58D200DB14FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D5A12A8B2E4F58CF00DB14FF;
+					};
+					D5A12ABC2E4F58F800DB14FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D5A12A872E4F58CF00DB14FF /* Build configuration list for PBXProject "HadithWidgetApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A12A832E4F58CF00DB14FF;
+			productRefGroup = D5A12A8D2E4F58CF00DB14FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A12A8B2E4F58CF00DB14FF /* HadithWidgetApp */,
+				D5A12A9B2E4F58D200DB14FF /* HadithWidgetAppTests */,
+				D5A12AA52E4F58D200DB14FF /* HadithWidgetAppUITests */,
+				D5A12ABC2E4F58F800DB14FF /* HadithWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A12A8A2E4F58CF00DB14FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A12A972E4F58D100DB14FF /* Preview Assets.xcassets in Resources */,
+				D5A12A942E4F58D100DB14FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12A9A2E4F58D200DB14FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12AA42E4F58D200DB14FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12ABB2E4F58F800DB14FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A12ACC2E4F591800DB14FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A12A882E4F58CF00DB14FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A12A922E4F58CF00DB14FF /* ContentView.swift in Sources */,
+				D5A12A902E4F58CF00DB14FF /* HadithWidgetAppApp.swift in Sources */,
+				D5A12ACF2E4F591800DB14FF /* HadithWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12A982E4F58D200DB14FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A12AA12E4F58D200DB14FF /* HadithWidgetAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12AA22E4F58D200DB14FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A12AAD2E4F58D200DB14FF /* HadithWidgetAppUITestsLaunchTests.swift in Sources */,
+				D5A12AAB2E4F58D200DB14FF /* HadithWidgetAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A12AB92E4F58F800DB14FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A12ACE2E4F591800DB14FF /* HadithWidget.intentdefinition in Sources */,
+				D5A12AC72E4F58F900DB14FF /* HadithWidgetLiveActivity.swift in Sources */,
+				D5A12AC92E4F58F900DB14FF /* HadithWidget.swift in Sources */,
+				D5A12AC52E4F58F900DB14FF /* HadithWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5A12A9E2E4F58D200DB14FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A12A8B2E4F58CF00DB14FF /* HadithWidgetApp */;
+			targetProxy = D5A12A9D2E4F58D200DB14FF /* PBXContainerItemProxy */;
+		};
+		D5A12AA82E4F58D200DB14FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A12A8B2E4F58CF00DB14FF /* HadithWidgetApp */;
+			targetProxy = D5A12AA72E4F58D200DB14FF /* PBXContainerItemProxy */;
+		};
+		D5A12AD12E4F591800DB14FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5A12ABC2E4F58F800DB14FF /* HadithWidgetExtension */;
+			targetProxy = D5A12AD02E4F591800DB14FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D5A12AAE2E4F58D200DB14FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5A12AAF2E4F58D200DB14FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5A12AB12E4F58D200DB14FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HadithWidgetApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HadithWidgetApp.HadithWidgetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A12AB22E4F58D200DB14FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HadithWidgetApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HadithWidgetApp.HadithWidgetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5A12AB42E4F58D200DB14FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HadithWidgetApp.HadithWidgetAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HadithWidgetApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HadithWidgetApp";
+			};
+			name = Debug;
+		};
+		D5A12AB52E4F58D200DB14FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HadithWidgetApp.HadithWidgetAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HadithWidgetApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HadithWidgetApp";
+			};
+			name = Release;
+		};
+		D5A12AB72E4F58D200DB14FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HadithWidgetApp.HadithWidgetAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HadithWidgetApp;
+			};
+			name = Debug;
+		};
+		D5A12AB82E4F58D200DB14FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HadithWidgetApp.HadithWidgetAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HadithWidgetApp;
+			};
+			name = Release;
+		};
+		D5A12AD42E4F591A00DB14FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HadithWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HadithWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HadithWidgetApp.HadithWidgetApp.HadithWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5A12AD52E4F591A00DB14FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HadithWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HadithWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HadithWidgetApp.HadithWidgetApp.HadithWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A12A872E4F58CF00DB14FF /* Build configuration list for PBXProject "HadithWidgetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A12AAE2E4F58D200DB14FF /* Debug */,
+				D5A12AAF2E4F58D200DB14FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A12AB02E4F58D200DB14FF /* Build configuration list for PBXNativeTarget "HadithWidgetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A12AB12E4F58D200DB14FF /* Debug */,
+				D5A12AB22E4F58D200DB14FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A12AB32E4F58D200DB14FF /* Build configuration list for PBXNativeTarget "HadithWidgetAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A12AB42E4F58D200DB14FF /* Debug */,
+				D5A12AB52E4F58D200DB14FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A12AB62E4F58D200DB14FF /* Build configuration list for PBXNativeTarget "HadithWidgetAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A12AB72E4F58D200DB14FF /* Debug */,
+				D5A12AB82E4F58D200DB14FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A12AD32E4F591A00DB14FF /* Build configuration list for PBXNativeTarget "HadithWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A12AD42E4F591A00DB14FF /* Debug */,
+				D5A12AD52E4F591A00DB14FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5A12A842E4F58CF00DB14FF /* Project object */;
+}
