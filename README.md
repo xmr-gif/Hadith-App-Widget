@@ -23,7 +23,7 @@ The app fetches Hadiths from the **Random Hadith API** and refreshes every five 
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/yourusername/HadithWidget.git](https://github.com/xmr-gif/Hadith-App-Widget)
+    git clone https://github.com/xmr-gif/Hadith-App-Widget
     ```
 2.  Open the `HadithWidget.xcodeproj` file in **Xcode 14.2** or a later version.
 3.  Build and run the app on an iOS simulator (v16.0-16.2) or a physical device.
